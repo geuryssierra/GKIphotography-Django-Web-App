@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GKIphotography", "GKIphotography\GKIphotography.pyproj", "{DB90916F-6A1D-4428-B2C4-ED17A6B3A506}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB90916F-6A1D-4428-B2C4-ED17A6B3A506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB90916F-6A1D-4428-B2C4-ED17A6B3A506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB90916F-6A1D-4428-B2C4-ED17A6B3A506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB90916F-6A1D-4428-B2C4-ED17A6B3A506}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC0604B5-7FDC-45D5-9869-46915D35B316}
+	EndGlobalSection
+EndGlobal
