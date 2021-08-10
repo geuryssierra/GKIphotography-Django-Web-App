@@ -1,0 +1,22 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div  id="portfolioContent">
+    <h1 id="portfolioTitle" class="portfolioPadding">Our Drone Content !</h1>
+    <p class="portfolioPadding">Drone videos coming soon...</p class="portfolioPadding">
+    <hr />
+    <div id="portfolioContent">
+        <div class="container">
+            {% for i in Videos %}
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src=v.videoURL></iframe>
+            </div>
+
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

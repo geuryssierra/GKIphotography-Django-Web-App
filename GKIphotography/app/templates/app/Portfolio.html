@@ -2,14 +2,32 @@
 
 {% block content %}
 
-<div  id="jumboHome">
-    <h1>GKI photography's portfolio!</h1>
-    <p>Thank you for viewing our portfolio, hope you enjoy our content!</p>
-    <div id="portfolioContent">
-
+<div  id="portfolioContent">
+    <h1 id="portfolioTitle" class="portfolioPadding">Our Photo Gallery !</h1>
+    <p class="portfolioPadding">Thank you for viewing our gallery, hope you enjoy our content!</p class="portfolioPadding">
+    <div class="filterContainer">
+        
+        <div class="categoriesDropdown">
+            <button class="dropbtn" onclick="dropdownFunc()">Categories</button>
+            <div id="myDropdown" class="dropdown">
+            <a  href="{% url  'Portfolio'%}">All</a>
+            {% for c in Categories %}
+            <a  href="{% url  'Portfolio'%}?category={{c.name}}">{{c.name}}</a>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="gallery">
+        
+            {% for x in Images %}
+                    <div class="imgContainer">
+                        <img class="myImg" src="{{x.image.url}}" alt="{{x.title}}" style="width:100%;max-width:300px" onclick="modalPopup('{{x.image.url}}', '{{x.title}}')">
+                    </div>
+              {% endfor %}
+       
     </div>
 </div>
 
-
-
 {% endblock %}
+

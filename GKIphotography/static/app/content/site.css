@@ -1,0 +1,150 @@
+body {
+    background: url(../Assets/camera-820018_1920-2.jpg)no-repeat center center fixed;
+}
+footer
+{
+    color:white;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content 
+{
+    padding-top:40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/*Home page:*/
+#jumboHome
+{
+    min-height:600px;
+}
+.headerText
+{
+    color:white;
+    
+}
+#GKItext {
+    color: #f7483b;
+    font-size: 80px;
+}
+#photographytext {
+    font-family: 'Script MT';
+    font-size: 70px;
+    font-weight:bolder;
+    font-weight:lighter;
+}
+#homeCenterContainer
+{
+    height: 200px;
+    width: 700px;
+    margin:auto;
+    margin-top:250px;
+    background-color:transparent;
+    text-align:center;
+    
+    
+}
+#centerline
+{
+    
+}
+#homeBtn1
+{
+    color:white;
+    font-size:15px;
+    padding:7px;
+    border:1px solid white;
+    
+}
+    #homeBtn1:hover
+    {
+        background-color:white;
+        color:dimgray;
+        text-decoration:none;
+    }
+    /*Portfolio page styling:*/
+    #portfolioContent 
+    {
+        background-color:whitesmoke;
+        padding-top:10px;
+        border-radius: 10px;
+        min-height:700px;
+        
+
+    }
+.portfolioPadding
+{
+    padding-left:25px;
+}
+#portfolioContent {
+    background-color: whitesmoke;
+}
+#portfolioTitle
+{
+    padding-top:50px;
+}
+/*About page styling*/
+#aboutBodyContent
+{
+    background-color:whitesmoke;
+    min-height:700px;
+    border-radius:10px 10px 10px 10px;
+}
+#aboutTittle
+{
+    padding-top:75px;
+    
+}
+.aboutPadding
+{
+    padding-left:25px;
+}
+/*Contact page styling*/
+#contactBodyContent
+{
+    background-color:whitesmoke;
+    min-height:700px;
+    border-radius:10px;
+}
+.contactPadding
+{
+    padding-left:25px;
+}
+#contactHeading
+{
+    padding-top:75px;
+}

@@ -1,20 +1,30 @@
 {% extends "app/layout.html" %}
 
 {% block content %}
+<div id="contactBodyContent">
+<h1 id="contactHeading" class="contactPadding">{{ title }}.</h1>
+<h3 class="contactPadding">{{ message }}</h3>
+    <hr class="breakLine" />
+    <div class="contactGridContainer">
+    {% for i in contact %}
+        <div class="contactCard">
+        <h3 class="contactPadding"><span class="gkiLabel">GKI </span><span class="photographyLabel">photography!</span></h3>
+        <h4 class="contactCardInfo"> Name: {{i.name}}</h4>
+        <h5 class="contactCardInfo"> Role: {{i.role}}</h5>
+        <h5 class="contactCardInfo"> Email: {{i.email}}</h5>
+        
+        </div>
 
-<h2>{{ title }}.</h2>
-<h3>{{ message }}</h3>
-
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
-
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
-
+    
+    {% endfor %}
+    </div>
+</div>
+<style>
+    .breakLine 
+    {
+        height:1.5px;
+        width: 96%;
+        background-color: lightgrey;
+    }
+</style>
 {% endblock %}

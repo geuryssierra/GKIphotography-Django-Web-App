@@ -1,10 +1,12 @@
 {% extends "app/layout.html" %}
 
 {% block content %}
+<div id="aboutBodyContent">
+<h1 id="aboutTittle" class="aboutPadding">About Us</h1>
+<h3 class="aboutPadding">{{ message }}</h3>
+    {% for i in Description %}
+            <p class="aboutPadding">{{ i.aboutUs }}</p>
+            {% endfor %}
 
-<h2>{{ title }}.</h2>
-<h3>{{ message }}</h3>
-
-<p>Use this area to provide additional information.</p>
-
+</div>
 {% endblock %}

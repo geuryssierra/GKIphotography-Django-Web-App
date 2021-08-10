@@ -34,10 +34,15 @@
   <ItemGroup>
     <Compile Include="app\forms.py" />
     <Compile Include="app\models.py" />
+    <Compile Include="app\django-admin.py" />
     <Compile Include="app\tests.py" />
     <Compile Include="app\views.py" />
     <Compile Include="app\__init__.py" />
     <Compile Include="app\migrations\__init__.py" />
+    <Compile Include="GKIphotography\django-admin.py" />
+    <Compile Include="GKIphotography\Admin.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="manage.py" />
     <Compile Include="GKIphotography\__init__.py" />
     <Compile Include="GKIphotography\settings.py" />
@@ -58,10 +63,21 @@
     <Folder Include="GKIphotography\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\static\app\Assets\camera-820018_1920-2.jpg" />
+    <Content Include="app\static\app\Assets\camera-820018_1920.jpg" />
     <Content Include="app\static\app\Assets\IMG_1208.jpg" />
+    <Content Include="app\static\app\Assets\IMG_1688 edited.jpg" />
     <Content Include="app\static\app\Assets\NikonJumbo.jpg" />
+    <Content Include="app\static\app\scripts\imageModal.js" />
+    <Content Include="app\static\app\scripts\imageCatFilter.js" />
+    <Content Include="app\static\app\scripts\DropdownScript.js" />
     <Content Include="app\templates\app\Admin.html" />
     <Content Include="app\templates\app\Portfolio.html" />
+    <Content Include="app\django-admin.exe" />
+    <Content Include="app\templates\app\Drone.html" />
+    <Content Include="app\templates\app\DroneContent.html" />
+    <Content Include="app\templates\app\Videos.html" />
+    <Content Include="GKIphotography\django-admin.exe" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
